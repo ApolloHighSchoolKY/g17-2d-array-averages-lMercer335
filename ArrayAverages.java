@@ -12,7 +12,15 @@ public class ArrayAverages{
     
   }
 
-  public void columnAverages(){
+  public void columnAverages()
+  //column major order
+  // take each column and go thru all of the rows
+  // top down and left to right 
+  // from row on the 
+  // had in brackets row changes to zero
+
+  for(int row=0; row<ray.length; col++)
+  {
 
   }
 
@@ -25,5 +33,7 @@ public class ArrayAverages{
     {
       System.out.println(Arrays.toString(ray[row]));
     }
+
+    return "";
   }
 }
